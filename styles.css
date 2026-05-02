@@ -9,6 +9,18 @@ body {
 
 h1 {
     background-color: #1e88e5;
+/* Página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef7ee;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Título */
+h1 {
+    background-color: #2e7d32;
     color: white;
     padding: 20px;
     margin: 0;
@@ -35,4 +47,35 @@ p {
     font-size: 20px;
     margin-top: 40px;
     color: #333;
+/* Lista */
+ul {
+    list-style: none;
+    padding: 20px;
+}
+
+/* Elementos */
+ul li {
+    background-color: white;
+    width: 250px;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    font-size: 18px;
+}
+
+/* Link */
+a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #2e7d32;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Hover */
+a:hover {
+    background-color: #1b5e20;
 }
